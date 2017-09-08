@@ -19,10 +19,13 @@ the following is my environment & Device
 
 
 Download PCL AllInOne pkg from http://unanancyowen.com/en/pcl18/
+
 Download cmake from https://cmake.org/
+
 Download Kinect SDK 2.0 for Kinect V2 from https://www.microsoft.com/en-us/download/details.aspx?id=44561
 
 After installation, now we try to build a new PCL Project
+
 create a new folder and we will create two new files in it later
 
 
@@ -97,6 +100,7 @@ create a new file called `CMakeLists.txt` , copy and paste it
 
 create a new file called `cloud_viewer.cpp` , copy and paste it
 
-https://imgur.com/a/Z7Syp
+![alt text](https://imgur.com/a/Z7Syp)
+
 
 Using cmake to build PCL project 
