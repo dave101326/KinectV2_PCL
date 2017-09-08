@@ -100,7 +100,7 @@ create a new file called `CMakeLists.txt` , copy and paste it
 
 create a new file called `cloud_viewer.cpp` , copy and paste it
 
-![alt text](https://imgur.com/a/Z7Syp)
+![image](https://github.com/dave101326/KinectV2_PCL/blob/master/Capture.PNG)
 
 
 Using cmake to build PCL project 
