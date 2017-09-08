@@ -1,22 +1,23 @@
 # KinectV2_PCL
 
 ### Environment & Device
+--------------
 
 the following is my environment & Device
 
-***
+
 *   Windows 10
 *   VS2013
 *   PCL 1.8
 *   ckame 3.9
 *   Kinect V2
 
-***
+
 
 **USB 3.0 is needed for the Kinect v2*
 
 ### Install & SetUp
-
+--------------
 
 Download PCL AllInOne pkg from http://unanancyowen.com/en/pcl18/
 
@@ -25,6 +26,7 @@ Download cmake from https://cmake.org/
 Download Kinect SDK 2.0 for Kinect V2 from https://www.microsoft.com/en-us/download/details.aspx?id=44561
 
 After installation, now we try to build a new PCL Project
+--------------
 
 create a new folder and we will create two new files in it later
 
@@ -43,6 +45,7 @@ create a new folder and we will create two new files in it later
 	target_link_libraries (cloud_viewer ${PCL_LIBRARIES})
 	
 create a new file called `CMakeLists.txt` , copy and paste it
+--------------
 
 	#include <iostream>
 	#include <pcl/io/io.h>
@@ -99,6 +102,7 @@ create a new file called `CMakeLists.txt` , copy and paste it
 
 
 create a new file called `cloud_viewer.cpp` , copy and paste it
+--------------
 
 ![image](https://github.com/dave101326/KinectV2_PCL/blob/master/Capture.PNG)
 
